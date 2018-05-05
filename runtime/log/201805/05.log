@@ -1,0 +1,907 @@
+---------------------------------------------------------------
+[ 2018-05-05T10:46:55+08:00 ] 192.168.33.1 GET /
+[ error ] [2]Declaration of app\core\controller\Api::_initialize(think\Request $request) should be compatible with app\core\controller\Base::_initialize()
+---------------------------------------------------------------
+[ 2018-05-05T10:47:26+08:00 ] 192.168.33.1 GET /
+[ info ] www.love.com/ [运行时间：0.128539s][吞吐率：7.78req/s] [内存消耗：1,448.80kb] [文件加载：46]
+[ info ] [ LANG ] /home/wwwroot/www.love.com/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=6006304768; pgv_si=s4930284544',
+  'accept-language' => 'en-US,en;q=0.9,zh-CN;q=0.8,zh;q=0.7',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.139 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => 'www.love.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+[ error ] [2]Declaration of app\core\controller\Api::_initialize(think\Request $request) should be compatible with app\core\controller\Base::_initialize()[/home/wwwroot/www.love.com/application/core/controller/Api.php:9]
+---------------------------------------------------------------
+[ 2018-05-05T10:49:28+08:00 ] 192.168.33.1 GET /
+[ info ] www.love.com/ [运行时间：0.139863s][吞吐率：7.15req/s] [内存消耗：2,308.37kb] [文件加载：55]
+[ info ] [ LANG ] /home/wwwroot/www.love.com/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=6006304768; pgv_si=s4930284544; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'en-US,en;q=0.9,zh-CN;q=0.8,zh;q=0.7',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.139 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => 'www.love.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ error ] [8]未定义变量: map[/home/wwwroot/www.love.com/application/core/controller/Base.php:36]
+---------------------------------------------------------------
+[ 2018-05-05T10:49:54+08:00 ] 192.168.33.1 GET /
+[ info ] www.love.com/ [运行时间：0.089733s][吞吐率：11.14req/s] [内存消耗：2,155.55kb] [文件加载：46]
+[ info ] [ LANG ] /home/wwwroot/www.love.com/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=6006304768; pgv_si=s4930284544; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'en-US,en;q=0.9,zh-CN;q=0.8,zh;q=0.7',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.139 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => 'www.love.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000214s ] mysql:host=127.0.0.1;dbname=love;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_admin_user` [ RunTime:0.000422s ]
+[ sql ] [ SQL ] SELECT * FROM `think_admin_user` WHERE  `id` = 1  AND `status` = 1 LIMIT 1 [ RunTime:0.000257s ]
+---------------------------------------------------------------
+[ 2018-05-05T10:50:04+08:00 ] 192.168.33.1 GET /
+[ info ] www.love.com/ [运行时间：0.087819s][吞吐率：11.39req/s] [内存消耗：2,148.98kb] [文件加载：46]
+[ info ] [ LANG ] /home/wwwroot/www.love.com/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=6006304768; pgv_si=s4930284544; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'en-US,en;q=0.9,zh-CN;q=0.8,zh;q=0.7',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.139 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => 'www.love.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000268s ] mysql:host=127.0.0.1;dbname=love;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_admin_user` [ RunTime:0.000431s ]
+[ sql ] [ SQL ] SELECT `id` FROM `think_admin_user` WHERE  `id` = 1  AND `status` = 1 LIMIT 1 [ RunTime:0.000200s ]
+---------------------------------------------------------------
+[ 2018-05-05T10:50:12+08:00 ] 192.168.33.1 GET /
+[ info ] www.love.com/ [运行时间：0.115420s][吞吐率：8.66req/s] [内存消耗：2,328.95kb] [文件加载：56]
+[ info ] [ LANG ] /home/wwwroot/www.love.com/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=6006304768; pgv_si=s4930284544; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'en-US,en;q=0.9,zh-CN;q=0.8,zh;q=0.7',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.139 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => 'www.love.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000296s ] mysql:host=127.0.0.1;dbname=love;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_admin_user` [ RunTime:0.000429s ]
+[ error ] [10501]SQLSTATE[42S22]: Column not found: 1054 Unknown column 'name' in 'field list'[/home/wwwroot/www.love.com/thinkphp/library/think/db/Connection.php:390]
+---------------------------------------------------------------
+[ 2018-05-05T10:50:17+08:00 ] 192.168.33.1 GET /
+[ info ] www.love.com/ [运行时间：0.072372s][吞吐率：13.82req/s] [内存消耗：2,149.06kb] [文件加载：46]
+[ info ] [ LANG ] /home/wwwroot/www.love.com/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=6006304768; pgv_si=s4930284544; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'en-US,en;q=0.9,zh-CN;q=0.8,zh;q=0.7',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.139 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => 'www.love.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000179s ] mysql:host=127.0.0.1;dbname=love;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_admin_user` [ RunTime:0.000772s ]
+[ sql ] [ SQL ] SELECT `username` FROM `think_admin_user` WHERE  `id` = 1  AND `status` = 1 LIMIT 1 [ RunTime:0.000203s ]
+---------------------------------------------------------------
+[ 2018-05-05T10:51:05+08:00 ] 192.168.33.1 GET /
+[ info ] www.love.com/ [运行时间：0.072509s][吞吐率：13.79req/s] [内存消耗：2,151.05kb] [文件加载：46]
+[ info ] [ LANG ] /home/wwwroot/www.love.com/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=6006304768; pgv_si=s4930284544; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'en-US,en;q=0.9,zh-CN;q=0.8,zh;q=0.7',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.139 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => 'www.love.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000180s ] mysql:host=127.0.0.1;dbname=love;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_admin_user` [ RunTime:0.000522s ]
+---------------------------------------------------------------
+[ 2018-05-05T10:58:19+08:00 ] 192.168.33.1 GET /
+[ info ] www.love.com/ [运行时间：0.106112s][吞吐率：9.42req/s] [内存消耗：1,644.08kb] [文件加载：50]
+[ info ] [ LANG ] /home/wwwroot/www.love.com/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=6006304768; pgv_si=s4930284544; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'en-US,en;q=0.9,zh-CN;q=0.8,zh;q=0.7',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.139 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => 'www.love.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+[ error ] [8]未定义数组索引: authKey[/home/wwwroot/www.love.com/application/core/controller/Api.php:16]
+---------------------------------------------------------------
+[ 2018-05-05T10:58:46+08:00 ] 192.168.33.1 GET /
+[ info ] www.love.com/ [运行时间：0.125020s][吞吐率：8.00req/s] [内存消耗：2,550.58kb] [文件加载：57]
+[ info ] [ LANG ] /home/wwwroot/www.love.com/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=6006304768; pgv_si=s4930284544; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'en-US,en;q=0.9,zh-CN;q=0.8,zh;q=0.7',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.139 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => 'www.love.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ error ] [8]未定义变量: mpa[/home/wwwroot/www.love.com/application/core/controller/Api.php:17]
+---------------------------------------------------------------
+[ 2018-05-05T10:58:54+08:00 ] 192.168.33.1 GET /
+[ info ] www.love.com/ [运行时间：0.098860s][吞吐率：10.12req/s] [内存消耗：2,465.05kb] [文件加载：48]
+[ info ] [ LANG ] /home/wwwroot/www.love.com/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=6006304768; pgv_si=s4930284544; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'en-US,en;q=0.9,zh-CN;q=0.8,zh;q=0.7',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.139 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => 'www.love.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000210s ] mysql:host=127.0.0.1;dbname=love;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_admin_user` [ RunTime:0.000482s ]
+[ sql ] [ SQL ] SELECT * FROM `think_admin_user` WHERE  `id` = 1  AND `status` = 1 LIMIT 1 [ RunTime:0.000138s ]
+---------------------------------------------------------------
+[ 2018-05-05T10:59:17+08:00 ] 192.168.33.1 GET /
+[ info ] www.love.com/ [运行时间：0.075127s][吞吐率：13.31req/s] [内存消耗：2,461.60kb] [文件加载：48]
+[ info ] [ LANG ] /home/wwwroot/www.love.com/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=6006304768; pgv_si=s4930284544; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'en-US,en;q=0.9,zh-CN;q=0.8,zh;q=0.7',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.139 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => 'www.love.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000305s ] mysql:host=127.0.0.1;dbname=love;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_admin_user` [ RunTime:0.000493s ]
+[ sql ] [ SQL ] SELECT * FROM `think_admin_user` WHERE  `id` = 1  AND `status` = 1 LIMIT 1 [ RunTime:0.000162s ]
+---------------------------------------------------------------
+[ 2018-05-05T11:02:53+08:00 ] 192.168.33.1 GET /
+[ info ] www.love.com/ [运行时间：0.094294s][吞吐率：10.61req/s] [内存消耗：2,464.52kb] [文件加载：48]
+[ info ] [ LANG ] /home/wwwroot/www.love.com/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=6006304768; pgv_si=s4930284544; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'en-US,en;q=0.9,zh-CN;q=0.8,zh;q=0.7',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.139 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => 'www.love.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000184s ] mysql:host=127.0.0.1;dbname=love;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_admin_user` [ RunTime:0.000436s ]
+[ sql ] [ SQL ] SELECT * FROM `think_admin_user` WHERE  `status` = 1 LIMIT 1 [ RunTime:0.000189s ]
+---------------------------------------------------------------
+[ 2018-05-05T11:03:08+08:00 ] 192.168.33.1 GET /
+[ info ] www.love.com/ [运行时间：0.089884s][吞吐率：11.13req/s] [内存消耗：2,461.97kb] [文件加载：48]
+[ info ] [ LANG ] /home/wwwroot/www.love.com/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=6006304768; pgv_si=s4930284544; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'en-US,en;q=0.9,zh-CN;q=0.8,zh;q=0.7',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.139 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => 'www.love.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000177s ] mysql:host=127.0.0.1;dbname=love;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_admin_user` [ RunTime:0.000473s ]
+[ sql ] [ SQL ] SELECT * FROM `think_admin_user` WHERE  `status` = 1 LIMIT 1 [ RunTime:0.000132s ]
+---------------------------------------------------------------
+[ 2018-05-05T11:05:07+08:00 ] 192.168.33.1 GET /
+[ info ] www.love.com/ [运行时间：0.123589s][吞吐率：8.09req/s] [内存消耗：2,549.62kb] [文件加载：56]
+[ info ] [ LANG ] /home/wwwroot/www.love.com/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=6006304768; pgv_si=s4930284544; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'en-US,en;q=0.9,zh-CN;q=0.8,zh;q=0.7',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.139 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => 'www.love.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ error ] [0]method not exist:think\db\Query->findAll[/home/wwwroot/www.love.com/thinkphp/library/think/db/Query.php:96]
+---------------------------------------------------------------
+[ 2018-05-05T11:05:18+08:00 ] 192.168.33.1 GET /
+[ info ] www.love.com/ [运行时间：0.117385s][吞吐率：8.52req/s] [内存消耗：2,549.55kb] [文件加载：56]
+[ info ] [ LANG ] /home/wwwroot/www.love.com/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=6006304768; pgv_si=s4930284544; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'en-US,en;q=0.9,zh-CN;q=0.8,zh;q=0.7',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.139 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => 'www.love.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ error ] [0]method not exist:think\db\Query->all[/home/wwwroot/www.love.com/thinkphp/library/think/db/Query.php:96]
+---------------------------------------------------------------
+[ 2018-05-05T11:07:35+08:00 ] 192.168.33.1 GET /
+[ info ] www.love.com/ [运行时间：0.122656s][吞吐率：8.15req/s] [内存消耗：2,549.55kb] [文件加载：56]
+[ info ] [ LANG ] /home/wwwroot/www.love.com/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=6006304768; pgv_si=s4930284544; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'en-US,en;q=0.9,zh-CN;q=0.8,zh;q=0.7',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.139 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => 'www.love.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ error ] [0]method not exist:think\db\Query->all[/home/wwwroot/www.love.com/thinkphp/library/think/db/Query.php:96]
+---------------------------------------------------------------
+[ 2018-05-05T11:08:29+08:00 ] 192.168.33.1 GET /
+[ info ] www.love.com/ [运行时间：0.122880s][吞吐率：8.14req/s] [内存消耗：2,552.89kb] [文件加载：57]
+[ info ] [ LANG ] /home/wwwroot/www.love.com/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=6006304768; pgv_si=s4930284544; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'en-US,en;q=0.9,zh-CN;q=0.8,zh;q=0.7',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.139 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => 'www.love.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ error ] [8]未定义变量: map[/home/wwwroot/www.love.com/application/core/controller/Api.php:18]
+---------------------------------------------------------------
+[ 2018-05-05T11:08:48+08:00 ] 192.168.33.1 GET /
+[ info ] www.love.com/ [运行时间：0.121132s][吞吐率：8.26req/s] [内存消耗：2,616.21kb] [文件加载：56]
+[ info ] [ LANG ] /home/wwwroot/www.love.com/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=6006304768; pgv_si=s4930284544; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'en-US,en;q=0.9,zh-CN;q=0.8,zh;q=0.7',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.139 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => 'www.love.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000239s ] mysql:host=127.0.0.1;dbname=love;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_admin_user` [ RunTime:0.000447s ]
+[ sql ] [ SQL ] SELECT * FROM `think_admin_user` WHERE  `status` = 1 [ RunTime:0.000244s ]
+[ error ] [0]致命错误: Call to a member function toArray() on array[/home/wwwroot/www.love.com/application/core/controller/Api.php:20]
+---------------------------------------------------------------
+[ 2018-05-05T11:08:55+08:00 ] 192.168.33.1 GET /
+[ info ] www.love.com/ [运行时间：0.077816s][吞吐率：12.85req/s] [内存消耗：2,470.95kb] [文件加载：48]
+[ info ] [ LANG ] /home/wwwroot/www.love.com/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=6006304768; pgv_si=s4930284544; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'en-US,en;q=0.9,zh-CN;q=0.8,zh;q=0.7',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.139 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => 'www.love.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000181s ] mysql:host=127.0.0.1;dbname=love;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_admin_user` [ RunTime:0.000471s ]
+[ sql ] [ SQL ] SELECT * FROM `think_admin_user` WHERE  `status` = 1 [ RunTime:0.000131s ]
+---------------------------------------------------------------
+[ 2018-05-05T11:16:22+08:00 ] 192.168.33.1 GET /
+[ info ] www.love.com/ [运行时间：0.095241s][吞吐率：10.50req/s] [内存消耗：2,463.61kb] [文件加载：48]
+[ info ] [ LANG ] /home/wwwroot/www.love.com/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=6006304768; pgv_si=s4930284544; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'en-US,en;q=0.9,zh-CN;q=0.8,zh;q=0.7',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.139 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => 'www.love.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000215s ] mysql:host=127.0.0.1;dbname=love;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_admin_user` [ RunTime:0.000463s ]
+[ sql ] [ SQL ] SELECT * FROM `think_admin_user` WHERE  `status` = 1 [ RunTime:0.000135s ]
+---------------------------------------------------------------
+[ 2018-05-05T11:16:52+08:00 ] 192.168.33.1 GET /
+[ info ] www.love.com/ [运行时间：0.095110s][吞吐率：10.51req/s] [内存消耗：2,458.48kb] [文件加载：48]
+[ info ] [ LANG ] /home/wwwroot/www.love.com/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=6006304768; pgv_si=s4930284544; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'en-US,en;q=0.9,zh-CN;q=0.8,zh;q=0.7',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.139 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => 'www.love.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000177s ] mysql:host=127.0.0.1;dbname=love;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_admin_user` [ RunTime:0.000561s ]
+---------------------------------------------------------------
+[ 2018-05-05T11:17:08+08:00 ] 192.168.33.1 GET /
+[ info ] www.love.com/ [运行时间：0.095955s][吞吐率：10.42req/s] [内存消耗：2,463.84kb] [文件加载：48]
+[ info ] [ LANG ] /home/wwwroot/www.love.com/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=6006304768; pgv_si=s4930284544; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'en-US,en;q=0.9,zh-CN;q=0.8,zh;q=0.7',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.139 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => 'www.love.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000204s ] mysql:host=127.0.0.1;dbname=love;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_admin_user` [ RunTime:0.000412s ]
+[ sql ] [ SQL ] SELECT * FROM `think_admin_user` WHERE  `status` = 1 [ RunTime:0.000130s ]
+---------------------------------------------------------------
+[ 2018-05-05T11:17:33+08:00 ] 192.168.33.1 GET /
+[ info ] www.love.com/ [运行时间：0.077985s][吞吐率：12.82req/s] [内存消耗：2,465.39kb] [文件加载：48]
+[ info ] [ LANG ] /home/wwwroot/www.love.com/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=6006304768; pgv_si=s4930284544; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'en-US,en;q=0.9,zh-CN;q=0.8,zh;q=0.7',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.139 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => 'www.love.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000197s ] mysql:host=127.0.0.1;dbname=love;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_admin_user` [ RunTime:0.000415s ]
+[ sql ] [ SQL ] SELECT * FROM `think_admin_user` WHERE  `status` = 1 LIMIT 1 [ RunTime:0.000151s ]
+---------------------------------------------------------------
+[ 2018-05-05T11:17:45+08:00 ] 192.168.33.1 GET /
+[ info ] www.love.com/ [运行时间：0.071876s][吞吐率：13.91req/s] [内存消耗：2,469.52kb] [文件加载：48]
+[ info ] [ LANG ] /home/wwwroot/www.love.com/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=6006304768; pgv_si=s4930284544; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'en-US,en;q=0.9,zh-CN;q=0.8,zh;q=0.7',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.139 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => 'www.love.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000226s ] mysql:host=127.0.0.1;dbname=love;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_admin_user` [ RunTime:0.000409s ]
+[ sql ] [ SQL ] SELECT * FROM `think_admin_user` WHERE  `status` = 1 [ RunTime:0.000129s ]
+---------------------------------------------------------------
+[ 2018-05-05T11:18:19+08:00 ] 192.168.33.1 GET /
+[ info ] www.love.com/ [运行时间：0.075376s][吞吐率：13.27req/s] [内存消耗：2,462.45kb] [文件加载：48]
+[ info ] [ LANG ] /home/wwwroot/www.love.com/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=6006304768; pgv_si=s4930284544; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'en-US,en;q=0.9,zh-CN;q=0.8,zh;q=0.7',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.139 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => 'www.love.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000209s ] mysql:host=127.0.0.1;dbname=love;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_admin_user` [ RunTime:0.000483s ]
+[ sql ] [ SQL ] SELECT * FROM `think_admin_user` WHERE  `status` = 1 LIMIT 1 [ RunTime:0.000131s ]
+---------------------------------------------------------------
+[ 2018-05-05T11:18:26+08:00 ] 192.168.33.1 GET /
+[ info ] www.love.com/ [运行时间：0.102276s][吞吐率：9.78req/s] [内存消耗：2,462.45kb] [文件加载：48]
+[ info ] [ LANG ] /home/wwwroot/www.love.com/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=6006304768; pgv_si=s4930284544; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'en-US,en;q=0.9,zh-CN;q=0.8,zh;q=0.7',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.139 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => 'www.love.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000226s ] mysql:host=127.0.0.1;dbname=love;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_admin_user` [ RunTime:0.000414s ]
+[ sql ] [ SQL ] SELECT * FROM `think_admin_user` WHERE  `status` = 1 LIMIT 1 [ RunTime:0.000154s ]
+---------------------------------------------------------------
+[ 2018-05-05T11:18:32+08:00 ] 192.168.33.1 GET /
+[ info ] www.love.com/ [运行时间：0.073986s][吞吐率：13.52req/s] [内存消耗：2,463.81kb] [文件加载：48]
+[ info ] [ LANG ] /home/wwwroot/www.love.com/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=6006304768; pgv_si=s4930284544; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'en-US,en;q=0.9,zh-CN;q=0.8,zh;q=0.7',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.139 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => 'www.love.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000181s ] mysql:host=127.0.0.1;dbname=love;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_admin_user` [ RunTime:0.000479s ]
+[ sql ] [ SQL ] SELECT * FROM `think_admin_user` WHERE  `status` = 1 [ RunTime:0.000131s ]
+---------------------------------------------------------------
+[ 2018-05-05T11:22:33+08:00 ] 192.168.33.1 GET /
+[ info ] www.love.com/ [运行时间：0.088310s][吞吐率：11.32req/s] [内存消耗：2,458.66kb] [文件加载：48]
+[ info ] [ LANG ] /home/wwwroot/www.love.com/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=6006304768; pgv_si=s4930284544; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'en-US,en;q=0.9,zh-CN;q=0.8,zh;q=0.7',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.139 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => 'www.love.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000220s ] mysql:host=127.0.0.1;dbname=love;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_admin_user` [ RunTime:0.000528s ]
