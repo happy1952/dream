@@ -13,9 +13,8 @@ class Api extends BaseController
         parent::_initialize();
 
         $request    = Request::instance();
-        $header     = $request->header();
-        $authKey    = $header['authKey'];
-        $sessionId  = $header['sessionId'];
+        $authKey    = $request->header('authKey');
+        $sessionId  = $request->header('sessionId');
         $cache      = Cache::get('Auth_' . $authKey);
 
         try {
