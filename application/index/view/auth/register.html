@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>用户注册</title>
+</head>
+<body>
+    <div class="content">
+        <h1>用户注册</h1>
+        <form action="http://www.love.com/api/auth/register.html" method="post" id="userForm">
+            <label for="username">用户名</label>
+            <input type="text" name="username" id="username">
+            <label for="email">邮&nbsp;箱</label>
+            <input type="text" name="email" id="email">
+            <label for="password">密&nbsp;码</label>
+            <input type="password" name="password" id="password">
+            <label for="confirmpassword">确认密码</label>
+            <input type="password" name="confirmpassword" id="confirmpassword">
+            <label for="verifyCode">验证码</label>
+            <input type="text" name="verifycode" id="verifyCode">
+            <img src="http://www.love.com/api/auth/registerVerifycode.html" alt="验证码" class="verifyCode" id="imageverifyCode" onclick="this.src=this.src">
+            <button type="submit" class="submit" id="submitForm">点击登录</button>
+        </form>
+    </div>
+    <script src="https://cdn.bootcss.com/jquery/3.1.1/jquery.min.js"></script>
+    <script>
+        // $("#submitForm").click(function(){
+        //     // var fm    = $("#userForm")[0];
+        //     // var datas = new FormData(fm);
+        //     var verifycode = $("#verifyCode").val();
+        //     alert(verifycode);
+        //     var datas = {"verifycode":verifycode};
+        //     $.ajax({
+        //         type: "POST",
+        //         url: "http://www.love.com/api/auth/register.html",
+        //         processData: false,
+        //         contentType: false,
+        //         data: datas,
+        //         dataType: "json",
+        //         success:function(data){
+        //             var json = eval(data);
+        //             // refreshVerify();
+        //             alert(json.message);
+        //         },
+        //         error:function(){
+        //             // refreshVerify();
+        //             alert('网络不稳定，请稍后再试！');
+        //         }
+        //     });
+        // });
+    </script>
+</body>
+</html>
