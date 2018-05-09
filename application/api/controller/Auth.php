@@ -27,11 +27,11 @@ class Auth extends ApiController
 
     public function register(Request $request)
     {
-        $data['username']       = $request->post('username', '', 'htmlspecialchars');
-        $data['password']       = $request->post('password');
+        $data['username']        = $request->post('username', '', 'htmlspecialchars');
+        $data['password']        = $request->post('password');
         $data['confirmpassword'] = $request->post('confirmpassword');
-        $data['email']          = $request->post('email');
-        $data['verifycode']     = $request->post('verifycode');
+        $data['email']           = $request->post('email');
+        $data['verifycode']      = $request->post('verifycode');
 
         try {
             $auth_validate = new AuthValidate();
