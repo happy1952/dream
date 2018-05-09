@@ -42,8 +42,6 @@ class Auth extends ApiController
             if (!$captcha->check($data['verifycode'], '_authRegister')) {
                 throw new \Exception('验证码错误', 400);
             }
-            unset($data['confirmpassword']);
-            unset($data['verifycode']);
             $auth_model = new AuthModel();
             $auth_model->login($data);
         } catch (\Exception $e) {
