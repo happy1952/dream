@@ -9,6 +9,7 @@ use app\core\controller\Api as ApiController;
 
 class Auth extends ApiController
 {
+    // login
     public function login(Request $request)
     {
         $data['username'] = $request->post('username');
