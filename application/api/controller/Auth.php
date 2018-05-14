@@ -26,7 +26,7 @@ class Auth extends ApiController
         return $this->_response;
     }
 
-    // Óregister
+    // register
     public function register(Request $request)
     {
         $data['username']        = $request->post('username', '', 'htmlspecialchars');
