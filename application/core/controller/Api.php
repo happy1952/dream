@@ -13,6 +13,10 @@ class Api extends BaseController
         'auth' => ['login', 'register', 'registerverifycode', 'loginverifycode'],
     ];
 
+    /**
+     * 系统初始化
+     *
+     */
     public function _initialize()
     {
         parent::_initialize();
