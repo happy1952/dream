@@ -33,6 +33,12 @@ class Base extends Controller
     public function _initialize()
     {
         parent::_initialize();
+        
+        // 若请求方法为OPTIONS则直接退出脚本执行
+        if ($_SERVER['REQUEST_METHOD'] == 'OPTIONS') {
+
+            exit();
+        }
 
         $origin = isset($_SERVER['HTTP_ORIGIN']) ? $_SERVER['HTTP_ORIGIN'] : '';
         // 允许请求系统接口的域名列表

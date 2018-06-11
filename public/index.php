@@ -10,10 +10,10 @@
 // +----------------------------------------------------------------------
 
 // [ 应用入口文件 ]
-if (!ini_get('display_errors')) {
-    ini_set('display_errors', 1);
-}
-error_reporting(E_ALL & ~E_NOTICE);
+// if (!ini_get('display_errors')) {
+//     ini_set('display_errors', 1);
+// }
+// error_reporting(E_ALL & ~E_NOTICE);
 
 // 定义应用目录
 define('APP_PATH', __DIR__ . '/../application/');
