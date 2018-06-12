@@ -2,8 +2,9 @@
 namespace app\index\controller;
 
 use app\core\controller\Api as ApiController;
+use app\core\controller\Base as BaseController;
 
-class Index extends ApiController
+class Index extends BaseController
 {
     public function index()
     {
